@@ -1,11 +1,11 @@
 
 import {test as base} from "@playwright/test"
-import { CredtCardAppPage } from "../../pages/CreditCard/CredtCardAppPage";
-import { DebitCardAppPage } from "../../pages/DebitCard/DebitCardAppPage";
-import { HomePage } from "../../pages/HomePage/HomePage";
-import { TrackingApplicationStatus } from "../../pages/TrackingPage/TrackApplicationStatus";
-import { LoginPage } from "../../pages/HomePage/LoginPage";
-import { CommonLibrary } from "../../utils/CommonLibrary";
+import { CredtCardAppPage } from "../pages/CreditCard/CredtCardAppPage";
+import { DebitCardAppPage } from "../pages/DebitCard/DebitCardAppPage";
+import { HomePage } from "../pages/HomePage/HomePage";
+import { TrackingApplicationStatus } from "../pages/TrackingPage/TrackApplicationStatus";
+import { LoginPage } from "../pages/HomePage/LoginPage";
+import { CommonLibrary } from "./CommonLibrary";
 
 type MyFixtures = {
 creditCardPage:CredtCardAppPage

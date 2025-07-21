@@ -1,7 +1,7 @@
 
 
 import "../../utils/hooks";
-import {test} from "../POMTest/CustomFixtures.spec";
+import {test} from "../../utils/CustomFixtures.spec";
 
 
 
