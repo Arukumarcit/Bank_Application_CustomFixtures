@@ -36,7 +36,7 @@ commonLibrary:async ({page},use)=>{
 trackingStatus: async ({ page }, use) => {
   const [popup] = await Promise.all([
     page.waitForEvent('popup'),
-    page.click('text=Track Application Status') // Or whatever triggers the popup
+    page.click('text=Track Application Status') 
   ]);
 
   const trackingApplicationStatus = new TrackingApplicationStatus(popup);
