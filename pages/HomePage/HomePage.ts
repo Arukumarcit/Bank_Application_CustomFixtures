@@ -15,8 +15,8 @@ export class HomePage
     constructor(page:Page)
     {
      this.page=page
-     this.creditCardClickButton= page.locator("//a[contains(text(),'Credit Card Application')]")
-     this.debitCardClickButton= page.locator("//a[contains(text(),'Debit Card Application')]")
+     this.creditCardClickButton= page.locator("#creditLink")
+     this.debitCardClickButton= page.locator("#debitLink")
      this.trackStatusClickButton= page.locator("//a[contains(text(),'Track Application Status')]")
      this.goBackButton=page.locator("//a[@class='back-button']")
      this.homePagebutton=page.locator("//a[@class='home-button']")

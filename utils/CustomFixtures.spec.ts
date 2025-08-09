@@ -38,8 +38,8 @@ trackingStatus: async ({ page }, use) => {
     page.waitForEvent('popup'),
     page.click('text=Track Application Status') 
   ]);
-
   const trackingApplicationStatus = new TrackingApplicationStatus(popup);
+
   await use(trackingApplicationStatus);
 }
 
